@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sushhh Patil - Resume</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="resume-container">
+        <div class="header">
+            <img src="1.jpg" alt="my photo" class= "profile pic">
+        <div class="intro">
+            <img src="{% static 'resume/profile.jpg' %}" alt="Profile Photo" class="profile-pic">
+            <div>
+                <h1>Srushti Patil</h1>
+                <p><strong>Email:</strong> sushhh@example.com | <strong>Phone:</strong> +91-1234567890</p>
+                <div class="buttons">
+                    <a href="#" class="btn"><i class="fas fa-download"></i> Download Resume</a>
+                    <a href="mailto:sushhh@example.com" class="btn contact"><i class="fas fa-envelope"></i> Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <h2>About Me</h2>
+        <p>I am a Data Science graduate with a strong interest in Cyber Security, Machine Learning, and Web Development. I love solving real-world problems using data and secure systems.</p>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Python, Django, Pandas</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>SQL, MySQL</li>
+            <li>Machine Learning, Scikit-Learn</li>
+            <li>Cyber Security Basics</li>
+        </ul>
+
+        <h2>Projects</h2>
+        <p><strong>Spam Detection System</strong> – Built a machine learning model that detects suspicious activity in network traffic with 95% accuracy.</p>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>Introduction to Data Science – Infosys</li>
+            <li>Advance Excel – Infosys</li>
+            <li>Python – Udmey</li>
+            <li>Data Science using NLP </li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>B.Sc in Data Science – 2021-2024</p>
+    </div>
+</body>
+</html>
